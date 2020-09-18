@@ -1,0 +1,66 @@
+.wrapper {
+  position: relative;
+  top: 40%;
+  left: 35%;
+  height: 7.5%;
+  width: 30%;
+}
+
+.wrapperDone {
+  position: relative;
+  top: 15%;
+  left: 35%;
+  height: 7.5%;
+  width: 30%;
+  animation: slideUp 1s ease-in-out;
+}
+
+.searchFormContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29b9d9;
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+}
+
+.search {
+  width: 85%;
+  border-color: none;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: white;
+  text-indent: 0.3em;
+}
+
+.submit {
+  background-color: #9febfc;
+  border-radius: 5px;
+  margin-left: 5%;
+  border-style: solid;
+  cursor: pointer;
+  border-color: #9febfc;
+  color: #06081f
+}
+
+.submit:active {
+  background-color: #f7ffa1;
+}
+
+.error {
+  color: white;
+}
+
+@keyframes slideUp {
+  0% {top: 40%}
+  100% {top: 15%}
+}
